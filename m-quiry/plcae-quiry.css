@@ -1,0 +1,329 @@
+@media screen and (max-width:1200px) {
+    .card-1 {
+        margin: 50px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        padding: 30px;
+    }
+
+    .card-2 {
+        border: 2px solid rgba(255, 255, 255, 0.516);
+        background-color: rgba(60, 59, 59, 0.377);
+        border-radius: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 30px;
+        padding: 30px;
+
+    }
+
+    .card-3 {
+        border: 2px solid rgba(255, 255, 255, 0.516);
+        background-color: rgba(60, 59, 59, 0.377);
+        border-radius: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding: 20px;
+    }
+
+    .art {
+        border: 2px solid rgba(255, 255, 255, 0.516);
+        background-color: rgba(60, 59, 59, 0.377);
+        border-radius: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 20px;
+        padding: 20px;
+    }
+
+    .art-main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 10px;
+        row-gap: 10px;
+        margin: 10px;
+        list-style: none;
+
+    }
+
+    .card-4 {
+        border: 2px solid rgba(255, 255, 255, 0.516);
+        background-color: rgba(60, 59, 59, 0.377);
+        border-radius: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 20px;
+        padding: 30px;
+    }
+
+    .wrapper {
+        max-width: 900px;
+        margin-left: 10px;
+    }
+
+    .card .img img {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 4px solid #fff;
+    }
+}
+@media screen and (max-width:1025px) {
+    .card-1 {
+        margin: 50px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        padding: 30px;
+    }
+
+    .card-2 {
+        border: 2px solid rgba(255, 255, 255, 0.516);
+        background-color: rgba(60, 59, 59, 0.377);
+        border-radius: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 30px;
+        padding: 30px;
+
+    }
+
+    .card-3 {
+        border: 2px solid rgba(255, 255, 255, 0.516);
+        background-color: rgba(60, 59, 59, 0.377);
+        border-radius: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding: 20px;
+    }
+
+    .art {
+        border: 2px solid rgba(255, 255, 255, 0.516);
+        background-color: rgba(60, 59, 59, 0.377);
+        border-radius: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 20px;
+        padding: 20px;
+    }
+
+    .art-main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 10px;
+        row-gap: 10px;
+        margin: 10px;
+        list-style: none;
+
+    }
+
+    .card-4 {
+        border: 2px solid rgba(255, 255, 255, 0.516);
+        background-color: rgba(60, 59, 59, 0.377);
+        border-radius: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 20px;
+        padding: 30px;
+    }
+
+    .wrapper {
+        max-width: 900px;
+        margin-left: 10px;
+    }
+
+    .card .img img {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 4px solid #fff;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        height: 250px;
+        /* border: 2px solid red; */
+        transition: all 0.4s ease-out;
+        background-color: rgba(0, 0, 0, .5);
+    }
+
+    .logo {
+        width: 100%;
+        justify-content: start;
+        background-color: white;
+    }
+
+    .navlist {
+        width: 100%;
+        position: sticky;
+        top: 0px;
+        height: 0px;
+        transition: all 0.3s ease-in;
+
+    }
+
+    .navlist ul {
+        display: block;
+        height: 0;
+    }
+
+    .navlist ul li {
+        margin-bottom: 10px;
+        text-align: center;
+        /* border: 2px solid red; */
+    }
+
+    .navlist ul li a {
+        color: white;
+
+    }
+
+    .burger {
+        display: block;
+        top: 10px;
+    }
+
+    .h-nav {
+        height: 50px;
+    }
+
+    .v-nav {
+        opacity: 0;
+    }
+
+
+    .art {
+        padding: 5px;
+    }
+
+    .art-main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 5px;
+        row-gap: 5px;
+        margin: 5px;
+        list-style: none;
+    }
+
+    .art-card>img {
+        height: 220px;
+        width: 300px;
+        border-radius: 10px;
+    }
+
+
+    .wrapper .carousel {
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: calc((100% / 2) - 12px);
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        gap: 16px;
+        border-radius: 8px;
+        scroll-behavior: smooth;
+        scrollbar-width: none;
+    }
+
+
+
+
+}
+
+
+@media screen and (max-width:450px) {
+
+    .main>h1 {
+        font-size: 2rem;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .card-1 {
+        margin: 20px;
+        padding: 10px;
+    }
+
+    .card-1>img {
+        width: 100%;
+        height: 300px;
+        border-radius: 10px;
+    }
+
+    .card-2 {
+        border: 2px solid rgba(255, 255, 255, 0.516);
+        background-color: rgba(60, 59, 59, 0.377);
+        border-radius: 10px;
+        margin: 20px;
+        padding: 5px;
+    }
+
+
+    .card-3 {
+        border: 2px solid rgba(255, 255, 255, 0.516);
+        background-color: rgba(60, 59, 59, 0.377);
+        border-radius: 10px;
+        margin: 20px;
+    }
+
+    .art {
+        margin: 20px;
+    }
+
+    .art-main {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 10px;
+        row-gap: 10px;
+        margin: 10px;
+        list-style: none;
+
+    }
+
+    .art-card>img {
+        height: 200px;
+        width: 280px;
+        border-radius: 10px;
+    }
+
+    .card-4 {
+        margin: 20px;
+    }
+
+    .card-4>h2 {
+        font-size: 2rem;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+
+    .wrapper i {
+        top: 50%;
+        height: 50px;
+        width: 50px;
+        cursor: pointer;
+        font-size: 1.25rem;
+        position: absolute;
+        text-align: center;
+        line-height: 50px;
+        background: #fff;
+        border-radius: 50%;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
+        transform: translateY(-50%);
+        transition: transform 0.1s linear;
+    }
+
+    .wrapper .carousel {
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: calc((100% / 1) - 12px);
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        gap: 16px;
+        border-radius: 8px;
+        scroll-behavior: smooth;
+        scrollbar-width: none;
+    }
+}

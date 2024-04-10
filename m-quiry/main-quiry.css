@@ -1,0 +1,541 @@
+@media   (max-width:1200px) {
+
+    .h-title>h1 {
+        font-size: 4rem;
+    }
+
+    .search>p {
+        /* border: 2px solid red; */
+        margin-bottom: 5px;
+    }
+
+    .wrapper {
+        max-width: 850px;
+    }
+
+    .carousel .card {
+        height: 360px;
+    }
+
+    .explore {
+        width: 100%;
+        top: 190%;
+    }
+
+    .boxes {
+        width: 250px;
+    }
+
+    .photo img {
+        /* border: 2px solid green; */
+        width: 230px;
+        margin: 5px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .info p {
+        width: 220px;
+        line-height: 0.90;
+    }
+
+    .why {
+        padding: 30px;
+    }
+
+    .faq {
+        margin: 0;
+    }
+
+    .f-cont {
+        margin: 10px;
+        margin-top: 45px;
+    }
+
+    /* .f-main{
+        display: block;
+        margin-left: 200px;
+    } */
+
+    .ques>h3 {
+        font-size: 1.1rem;
+    }
+
+    .ans>p {
+        font-size: 1rem;
+    }
+
+    .review>h2 {
+        margin-top: 50px;
+    }
+
+    .colume {
+        margin: 0;
+    }
+}
+@media   (max-width:1024px) {
+
+    .h-title>h1 {
+        font-size: 4rem;
+    }
+
+    .search>p {
+        /* border: 2px solid red; */
+        margin-bottom: 5px;
+    }
+
+    .wrapper {
+        max-width: 850px;
+    }
+
+    .carousel .card {
+        height: 360px;
+    }
+
+    .explore {
+        width: 100%;
+        top: 190%;
+    }
+
+    .boxes {
+        width: 250px;
+    }
+
+    .photo img {
+        /* border: 2px solid green; */
+        width: 230px;
+        margin: 5px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .info p {
+        width: 220px;
+        line-height: 0.90;
+    }
+
+    .why {
+        padding: 30px;
+    }
+
+    .faq {
+        margin: 0;
+    }
+
+    .f-cont {
+        margin: 10px;
+        margin-top: 45px;
+    }
+
+    /* .f-main{
+        display: block;
+        margin-left: 200px;
+    } */
+
+    .ques>h3 {
+        font-size: 1.1rem;
+    }
+
+    .ans>p {
+        font-size: 1rem;
+    }
+
+    .review>h2 {
+        margin-top: 50px;
+    }
+
+    .colume {
+        margin: 0;
+    }
+}
+
+@media  (max-width: 768px) and (min-width:401px) {
+    .navbar {
+        flex-direction: column;
+        height: 250px;
+        /* border: 2px solid red; */
+        transition: all 0.4s ease-out;
+        background-color: rgba(0, 0, 0, .5);
+    }
+
+    .logo {
+        width: 100%;
+        justify-content: start;
+        background-color: white;
+    }
+
+    .navlist {
+        width: 100%;
+        position: sticky;
+        top: 0px;
+        height: 0px;
+        transition: all 0.3s ease-in;
+
+    }
+
+    .navlist ul {
+        display: block;
+        height: 0;
+    }
+
+    .navlist ul li {
+        margin-bottom: 10px;
+        text-align: center;
+        /* border: 2px solid red; */
+    }
+
+    .navlist ul li a {
+        color: white;
+        
+    }
+
+    .burger {
+        display: block;
+        top: 10px;
+    }
+
+    .h-nav {
+        height: 50px;
+    }
+
+    .v-nav {
+        opacity: 0;
+    }
+
+
+
+    .content {
+        margin: 0;
+        padding: 0;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+    .h-title>h1{
+        text-align: center;
+    }
+
+    .wrapper {
+        max-width: 720px;
+    }
+
+    .wrapper .carousel {
+        grid-auto-columns: calc((100% / 2) - 12px);
+    }
+
+    .w-title>p {
+        font-size: 1.2rem;
+    }
+
+    .w-main {
+        display: block;
+    }
+
+    .why{
+        border-radius: 10px;
+    }
+
+
+    .f-main {
+        display: block;
+        margin-left: 100px;
+    }
+
+    .m-colume {
+        display: block;
+        justify-content: center;
+    }
+
+    .colume {
+        width: 100%;
+    }
+
+    .frist {
+        margin-left: 150px;
+    }
+
+    #about-us {
+        border-radius: 10px;
+    }
+
+    .f-half {
+        display: block;
+    }
+
+    .a-info {
+        width: 100%;
+        display: flex;
+    }
+
+
+    .feedback>label {
+        text-align: left;
+        width: 200px;
+        margin-left: 50px;
+        margin-bottom: 30px;
+        padding: 20px;
+    }
+    .field>input {
+        text-align: left;
+        width: 500px;
+        margin-left: 50px;
+    }
+    .field-1>input {
+        text-align: left;
+        width: 500px;
+        margin-left: 50px;
+    }
+
+    .feedback>h2 {
+        text-align: center;
+    }
+
+    .btn-1 {
+        width: 300px;
+        justify-content: center;
+        margin-left: 150px;
+    }
+
+    .s-media .s-list {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .s-list li {
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+
+
+
+@media  (max-width:400px) {
+    .navbar {
+        flex-direction: column;
+        height: 250px;
+        /* border: 2px solid red; */
+        transition: all 0.4s ease-out;
+        background-color: rgba(0, 0, 0, .5);
+    }
+
+    .logo {
+        width: 100%;
+        justify-content: start;
+        background-color: white;
+    }
+
+    .navlist {
+        width: 100%;
+        position: sticky;
+        top: 0px;
+        height: 0px;
+        transition: all 0.3s ease-in;
+
+    }
+
+    .navlist ul {
+        display: block;
+        height: 0;
+    }
+
+    .navlist ul li {
+        margin-bottom: 10px;
+        text-align: center;
+        /* border: 2px solid red; */
+    }
+
+    .navlist ul li a {
+        color: white;
+        
+    }
+
+    .burger {
+        display: block;
+        top: 10px;
+    }
+
+    .h-nav {
+        height: 50px;
+    }
+
+    .v-nav {
+        opacity: 0;
+    }
+
+
+
+    .content {
+        margin: 0;
+        padding: 0;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+
+    .wrapper {
+        max-width: 720px;
+    }
+
+    .wrapper .carousel {
+        grid-auto-columns: calc((100% / 2) - 12px);
+    }
+
+    .w-title>p {
+        font-size: 1.2rem;
+    }
+
+    .w-main {
+        display: block;
+    }
+
+    .why{
+        border-radius: 10px;
+    }
+
+
+    .f-main {
+        display: block;
+        margin-left: 100px;
+    }
+
+    .m-colume {
+        display: block;
+        justify-content: center;
+    }
+
+    .colume {
+        width: 100%;
+    }
+
+    .frist {
+        margin-left: 150px;
+    }
+
+    #about-us {
+        border-radius: 10px;
+    }
+
+    .f-half {
+        display: block;
+    }
+
+    .a-info {
+        width: 100%;
+        display: flex;
+    }
+
+    .feedback>label {
+        text-align: left;
+        width: 200px;
+        /* margin-left: 50px; */
+        margin-bottom: 30px;
+        /* padding: 20px; */
+    }
+    .field>input {
+        text-align: left;
+        width: 280px;
+        /* margin-left: 50px; */
+    }
+    .field-1>input {
+        text-align: left;
+        width: 280px;
+        /* margin-left: 50px; */
+    }
+
+    .feedback>h2 {
+        text-align: center;
+    }
+
+    .btn-1 {
+        width: 250px;
+        justify-content: center;
+        /* margin-left: 50px; */
+    }
+
+    .s-media .s-list {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .s-list li {
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .container{
+        height: 300px;
+    }
+    .content{
+        margin-top: 20px;
+    }
+    .h-title>h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .search>p{
+        font-size: 1.2rem;
+    }
+    .wrapper{
+        max-width: 350px;
+    }
+
+    .wrapper .carousel{
+        grid-auto-columns: calc((100% / 1) - 12px);
+    }
+    .a-info{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo-f>img{
+        width: 300px;
+
+    }
+
+
+
+    #about-us{
+        border-radius: 5px;
+    }
+    .why{
+        margin: 0;
+        padding: 5px;
+        margin-top: 20px;
+    }
+    .w-title>h2{
+        font-size: 1.9rem;
+    }
+    .faq{
+        margin: 0;
+        margin-top: 20px;
+    }
+    .f-cont{
+        margin: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .f-main{
+        margin: 10px;
+    }
+    .left{
+        text-align: left;
+    }
+    .review>h2{
+        font-size: 2rem;
+    }
+    .review>p{
+        font-size: 0.9rem;
+    }
+    .frist{
+        margin: 10px;
+        margin-top: 20px;
+        margin-bottom: 100px;
+    }
+    .pro>p{
+        font-size: 1.09rem;
+    }
+    #comment-1{
+        margin: 0;
+        padding: 0;
+    }
+}
