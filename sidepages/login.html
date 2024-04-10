@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <nav class="navbar h-nav">
+
+        <div class="logo"><a href="#"><img src="../homepage-img/logo.png" alt=""></a></div>
+        <div class="navlist v-nav">
+            <ul>
+                <li><a href="../main.html">Home</a></li>
+                <li><a href="place.html">Places</a></li>
+                <li><a href="../sidepages/services.html">Services</a></li>
+                <li><a href="blog.html">Blogs</a></li>
+                <li><a href="contactus.html">Contact us</a></li>
+                <li><a href="#" id="current" class="login-btn">Login</a></li>
+            </ul>
+            <a href=""><img src="homepage-img/sign-in.png" alt="" id="sign-in"></a>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+    <div class="login-box">
+
+        <div class="form-box log">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" name="" id="" required>
+                    <label for="">Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" name="" id="" required>
+                    <label for="">Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox" name="" id="">Remember me </label>
+                    <a href="#">Forgot Password</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="login-register">
+                    <p> Don't have an account? <a href="#" class="register-link">Register</a></p>
+                </div>
+            </form>
+        </div>
+
+
+
+        <div class="form-box register">
+            <h2>Registration</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person"></ion-icon></span>
+                    <input type="text" name="" id="" required>
+                    <label for="">Username</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" name="" id="" required>
+                    <label for="">Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" name="" id="" required>
+                    <label for="">Password</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" name="" id="" required>
+                    <label for=""> Confirm Password</label>
+                </div>
+
+                <div class="remember-forgot">
+                    <label><input type="checkbox" name="" id="">I agree all the term & conditions </label>
+                </div>
+                <button type="submit" class="btn">Register</button>
+                <div class="login-register">
+                    <p> Already have an account <a href="#" class="login-link">Login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="foot">
+        <footer>
+            <ul>
+                <li><a href="#"><img src="../homepage-img/instagram.png" alt="s-photo"></a></li>
+                <li><a href="#"><img src="../homepage-img/facebook.png" alt="s-photo"></a></li>
+                <li><a href="#"><img src="../homepage-img/twitter.png" alt="s-photo"></a></li>
+                <li><a href="#"><img src="../homepage-img/youtube.jpg" alt="s-photo"></a></li>
+            </ul>
+            <p>| MOB : +91 9854981231 | E-mail : xyz@gmail.com |</p>
+            <p> | Copyright &COPY;2023 All are Reserved |</p>
+        </footer>
+    </div>
+    <script src="../java script/main.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script>
+        burger = document.querySelector('.burger')
+        navbar = document.querySelector('.navbar')
+        navlist = document.querySelector('.navlist')
+
+        burger.addEventListener('click', () => {
+            navlist.classList.toggle('v-nav');
+            navbar.classList.toggle('h-nav');
+        })
+
+    </script>
+</body>
+
+</html>

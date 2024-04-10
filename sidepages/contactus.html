@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+    <link rel="stylesheet" href="contactus.css">
+</head>
+
+<body>
+    <div class="main-c">
+        <nav class="navbar h-nav">
+
+            <div class="logo"><a href="#"><img src="../homepage-img/logo.png" alt=""></a></div>
+            <div class="navlist v-nav">
+                <ul>
+                    <li><a href="../main.html">Home</a></li>
+                    <li><a href="../sidepages/place.html">Places</a></li>
+                    <li><a href="../sidepages/services.html">Services</a></li>
+                    <li><a href="../sidepages/blog.html">Blogs</a></li>
+                    <li><a href="#" id="current">Contact us</a></li>
+                    <li><a href="../sidepages/login.html" id="sign" class="login-btn">Login</a></li>
+                </ul>
+                <a href=""><img src="homepage-img/sign-in.png" alt="" id="sign-in"></a>
+            </div>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+        <div class="main">
+            <div class="right">
+                <div class="feedback">
+                    <h2>Contact us</h2>
+                    <p>WE ARE ALWAYS HERE FOR YOU !!!</p>
+                    <form action="#">
+                        <label for="a">Name :</label><br>
+                        <input type="text" name="" id="a"><br>
+                        <label for="b">Mobile no :</label>
+                        <input type="number" name="" id="b">
+                        <label for="c">E-mail :</label><br>
+                        <input type="email" name="" id="c"><br>
+                        <label for="d">Comment :</label><br>
+                        <input type="text" name="" id="d"><br>
+                        <input type="submit" value="Submit" id="btn">
+                    </form>
+                </div>
+                <div class="c-info">
+                    <div class="info">
+                        <h2>Join with us</h2>
+                        <p>Your feedback is
+                            Precious for us!
+                            We always improve are Services and ensure your comfort !
+                        </p>
+                        <div class="loc">
+                            <span class="icon"><ion-icon name="location-outline"></ion-icon></span>
+                            <div class="loc-info">
+                                <p id="add">
+                                    Address: Office no - 303, Royal garden 3rd floor, karve road pune-411009
+                                </p>
+                            </div>
+                        </div>
+                        <div class="loc">
+                            <span class="icon"><ion-icon name="logo-whatsapp"></ion-icon></span>
+                            <div class="loc-info">
+                                <p>
+                                    Phone : 9893322210
+                                </p>
+                            </div>
+                        </div>
+                        <div class="loc">
+                            <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                            <div class="loc-info">
+                                <p>
+                                    Email : xyz@gamil.com
+                                </p>
+                            </div>
+                        </div>
+                        <div class="loc">
+                            <span class="icon"><ion-icon name="logo-instagram"></ion-icon></span>
+                            <div class="loc-info">
+                                <p>
+                                    follow us : @bharatexplore_official
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <ul>
+                <li><a href="#"><img src="../homepage-img/instagram.png" alt="s-photo"></a></li>
+                <li><a href="#"><img src="../homepage-img/facebook.png" alt="s-photo"></a></li>
+                <li><a href="#"><img src="../homepage-img/twitter.png" alt="s-photo"></a></li>
+                <li><a href="#"><img src="../homepage-img/youtube.jpg" alt="s-photo"></a></li>
+            </ul>
+            <p>| MOB : +91 9854981231 | E-mail : xyz@gmail.com |</p>
+            <p> | Copyright &COPY;2023 All are Reserved |</p>
+        </footer>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script>
+        burger = document.querySelector('.burger')
+        navbar = document.querySelector('.navbar')
+        navlist = document.querySelector('.navlist')
+
+        burger.addEventListener('click', () => {
+            navlist.classList.toggle('v-nav');
+            navbar.classList.toggle('h-nav');
+        })
+
+    </script>
+</body>
+
+</html>
