@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> pilgrimage spots </title>
+    <link rel="stylesheet" href="../t-types/types.css">
+    
+
+</head>
+
+<body>
+    <div class="main">
+        <nav class="navbar">
+            <div class="logo"><a href="#"><img src="../homepage-img/logo.png" alt="logo"></a></div>
+            <div class="navlist">
+                <ul>
+                    <li><a href="../main.html">Home</a></li>
+                    <li><a href="../sidepages/place.html">Places</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="../sidepages/blog.html">Blogs</a></li>
+                    <li><a href="../sidepages/contactus.html">Contact us</a></li>
+                    <li><a href="../sidepages/login.html" id="sign" class="login-btn">Login</a></li>
+                </ul>
+            </div>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+        <div class="contain">
+
+            <div class="right">
+                <h2>Piligrimage Spots In India</h2>
+                <h3>Explore the list of best Piligrimage destinations in India</h3>
+                <div class="space">
+                    <div class="card">
+                        <img src="../sidepages/Photos/Golden Temple.jpg" alt="">
+                        <p class="c-name">Golden Temple, Amritsar</p>
+                        <p class="c-info">Also known as Sri Harmandir Sahib, Golden Temple is considered to be the most
+                            important pilgrimage site amongst Sikhs and will leave you in awe with its jaw-dropping gold
+                            and marble edifice.</p>
+                        <a href="../places-pages/golden-temple.html">EXPLORE</a>
+                    </div>
+                    <div class="card">
+                        <img src="../sidepages/Photos/Kedarnath.jpg" alt="">
+                        <p class="c-name c-name1">Kedarnath Temple,Kedarnath</p>
+                        <p class="c-info">Located near the head of Mandakini river and believed to have been built by the Pandavas to plase lord shiva.
+                            It is one of the  holiest shrines dedicated to Lord Shiva. It is most beautiful and histrocail temple</p>
+                        <a href="../places-pages/kedarnath-temple.html">EXPLORE</a>
+                    </div>
+                    <div class="card">
+                        <img src="../sidepages/Photos/Sri Venkateswara Temple.jpg" alt="">
+                        <p class="c-name">Sri Venkateswara Temple, Tirupati</p>
+                        <p class="c-info">One of the holiest Hindu pilgrimage centres in the world, 
+                            Sri Venkateswara Temple features Dravidian-style architecture, 
+                            a gilded dome and a huge statue of the deity.</p>
+                        <a href="../places-pages/Tirupati Balaji.html">EXPLORE</a>
+                    </div>
+                    
+                    <div class="card">
+                        <img src="../sidepages/Photos/Ram Mandir.jpg" alt="">
+                        <p class="c-name">Ram Mandir, Uttar Pradesh</p>
+                        <p class="c-info">The Ram Mandir is a Hindu temple which is located at the site of Ram Janmabhoomi, 
+                            the hypothesized birthplace of Rama, a principal deity of Hinduism</p>
+                        <a href="../places-pages/Ram Mandir.html">EXPLORE</a>
+                    </div>
+                    <div class="card">
+                        <img src="../sidepages/Photos/Varanasi.jpg" alt="">
+                        <p class="c-name c-name1">Dashashwamedh Ghat, Varanasi</p>
+                        <p class="c-info">Varanasi is a city Regarded as the spiritual capital of India,
+                             the city draws Hindu pilgrims who bathe in the Ganges River’s sacred waters and perform funeral rites. </p>
+                        <a href="../places-pages/Dashashwamedh-Ghat.html">EXPLORE</a>
+                    </div>
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <ul>
+            <li><a href="#"><img src="../homepage-img/instagram.png" alt="s-photo"></a></li>
+            <li><a href="#"><img src="../homepage-img/facebook.png" alt="s-photo"></a></li>
+            <li><a href="#"><img src="../homepage-img/twitter.png" alt="s-photo"></a></li>
+            <li><a href="#"><img src="../homepage-img/youtube.jpg" alt="s-photo"></a></li>
+        </ul>
+        <p>| MOB : +91 9854981231 | E-mail : xyz@gmail.com |</p>
+        <p> | Copyright &COPY;2023 All are Reserved |</p>
+    </footer>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="../java/main.js"></script>
+    <script>
+        burger = document.querySelector('.burger')
+        navbar = document.querySelector('.navbar')
+        navlist = document.querySelector('.navlist')
+
+        burger.addEventListener('click', () => {
+            navlist.classList.toggle('v-nav');
+            navbar.classList.toggle('h-nav');
+        })
+
+    </script>
+</body>
+
+</html>

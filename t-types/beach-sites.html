@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>beach sites </title>
+    <link rel="stylesheet" href="../t-types/types.css">
+    
+
+</head>
+
+<body>
+    <div class="main">
+        <nav class="navbar">
+            <div class="logo"><a href="#"><img src="../homepage-img/logo.png" alt="logo"></a></div>
+            <div class="navlist">
+                <ul>
+                    <li><a href="../main.html">Home</a></li>
+                    <li><a href="../sidepages/place.html">Places</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="../sidepages/blog.html">Blogs</a></li>
+                    <li><a href="../sidepages/contactus.html">Contact us</a></li>
+                    <li><a href="../sidepages/login.html" id="sign" class="login-btn">Login</a></li>
+                </ul>
+            </div>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+        <div class="contain">
+
+            <div class="right">
+                <h2>Beach Destination In India</h2>
+                <h3>Explore the list of best Beach destinations in India</h3>
+                <div class="space">
+                    
+                    <div class="card">
+                        <img src="../sidepages/Photos/Baga beach.jpg" alt="">
+                        <p class="c-name">Baga Beach, Goa</p>
+                        <p class="c-info">One of the most popular beaches in Goa, Baga Beach offers quirky beach-side
+                            shacks and a number of thrilling water sports.
+                        Baga also boasts one of the best nightlife scence in Goa.The Toti's lene famous for bars and clubs.</p>
+                        <a href="../places-pages/baga-beach.html">EXPLORE</a>
+                    </div>
+                    
+                    <div class="card">
+                        <img src="../sidepages/Photos/Andretii.jpg" alt="">
+                        <p class="c-name">Andretti, Lakshadweep</p>
+                        <p class="c-info">Settled off the Kerala coast on Laccadive sea, Lakshadweep translates to ‘a
+                            hundred thousand islands’.
+                            A club of 36 atolls and coral reefs, the nature tourism destination is known for preserved
+                            ecology and water sports.</p>
+                        <a href="../places-pages/Andretti.html">EXPLORE</a>
+                    </div>
+                   
+                    <div class="card">
+                        <img src="../sidepages/Photos/Alibaug.jpg" alt="">
+                        <p class="c-name">Alibaug Beach, Alibaug</p>
+                        <p class="c-info">Nestled along the scenic shores of the Arabian Sea, 
+                            Alibaug Beach will mesmerise you with its scenic sea vistas. It is also famous for exciting adventure sports.</p>
+                        <a href="../places-pages/Alibaug.html">EXPLORE</a>
+                    </div>
+                   
+                    
+                    <div class="card">
+                        <img src="../sidepages/Photos/Andaman.jpg" alt="">
+                        <p class="c-name c-name1">Andaman and Nicobar Islands</p>
+                        <p class="c-info">Blue seas, virgin islands and colonial past is a little slice of paradise tucked around 
+                            1,400 km away from the east coast of mainland India. It is Union Territory of India. It is famous for rarest spacies of animals and plants.</p>
+                        <a href="../places-pages/Andaman-and-Nicobar-Islands.html">EXPLORE</a>
+                    </div>
+                    <div class="card">
+                        <img src="../sidepages/Photos/Varkala Beach.jpg" alt="">
+                        <p class="c-name"> Varkala, Kerala</p>
+                        <p class="c-info">Come and fall in love with the beach vibe of Varkala.
+                             You will love indulging in water sports, exploring the tourist attractions and attending the local festivals. 
+                            Varkala is also very popular among relaxation-seekers.</p>
+                        <a href="../places-pages/Varkala beach.html">EXPLORE</a>
+                    </div>
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <ul>
+            <li><a href="#"><img src="../homepage-img/instagram.png" alt="s-photo"></a></li>
+            <li><a href="#"><img src="../homepage-img/facebook.png" alt="s-photo"></a></li>
+            <li><a href="#"><img src="../homepage-img/twitter.png" alt="s-photo"></a></li>
+            <li><a href="#"><img src="../homepage-img/youtube.jpg" alt="s-photo"></a></li>
+        </ul>
+        <p>| MOB : +91 9854981231 | E-mail : xyz@gmail.com |</p>
+        <p> | Copyright &COPY;2023 All are Reserved |</p>
+    </footer>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="../java/main.js"></script>
+    <script>
+        burger = document.querySelector('.burger')
+        navbar = document.querySelector('.navbar')
+        navlist = document.querySelector('.navlist')
+
+        burger.addEventListener('click', () => {
+            navlist.classList.toggle('v-nav');
+            navbar.classList.toggle('h-nav');
+        })
+
+    </script>
+</body>
+
+</html>

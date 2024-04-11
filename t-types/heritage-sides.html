@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heritage sites </title>
+    <link rel="stylesheet" href="../t-types/types.css">
+    
+
+</head>
+
+<body>
+    <div class="main">
+        <nav class="navbar">
+            <div class="logo"><a href="#"><img src="../homepage-img/logo.png" alt="logo"></a></div>
+            <div class="navlist">
+                <ul>
+                    <li><a href="../main.html">Home</a></li>
+                    <li><a href="../sidepages/place.html">Places</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="../sidepages/blog.html">Blogs</a></li>
+                    <li><a href="../sidepages/contactus.html">Contact us</a></li>
+                    <li><a href="../sidepages/login.html" id="sign" class="login-btn">Login</a></li>
+                </ul>
+            </div>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+        <div class="contain">
+
+            <div class="right">
+                <h2>Heritage Sites In India</h2>
+                <h3>Explore the list of best Heritage destinations in India</h3>
+                <div class="space">
+                    <div class="card">
+                        <img src="../sidepages/Photos/Taj Mahal.jpg" alt="">
+                        <p class="c-name">Taj Mahal, Agra</p>
+                        <p class="c-info">Majestically located on the banks of Yamuna River,
+                            this wonder of the world was built by the Mughal Emperor Shah Jahan as a memorial for his
+                            beloved wife Mumtaz Mahal. It is one of the wonder in world </p>
+                        <a href="../places-pages/taj-mahal.html">EXPLORE</a>
+                    </div>
+                   
+                    <div class="card">
+                        <img src="../sidepages/Photos/Qutub Minar.jpg" alt="">
+                        <p class="c-name">Qutub Minar, Delhi</p>
+                        <p class="c-info">Towering 73 metres high above the greens in Mehrauli, construction for this
+                            five-storey minaret was started
+                            by Qutb ud Din Aibak, founder of Delhi Sultanate.
+                            It is renowned for the artistic brick-work on its pillars.</p>
+                        <a href="../places-pages/qutub-minar.html">EXPLORE</a>
+                    </div>
+                    <div class="card">
+                        <img src="../sidepages/Photos/Red Fort.jpg" alt="">
+                        <p class="c-name">Red Fort, Delhi</p>
+                        <p class="c-info">Located in Chandni Chowk Old Delhi, this red sandstone structure was
+                            constructed under the reign of Mughal
+                            emperor Shah Jahan for protection against invaders.
+                            It is known for its intricate Mughal architecture.</p>
+                        <a href="../places-pages/red-fort.html">EXPLORE</a>
+                    </div>
+                    <div class="card">
+                        <img src="../sidepages/Photos/Ellora Caves.jpg" alt="">
+                        <p class="c-name">Ellora Caves, Aurangabad</p>
+                        <p class="c-info">Featuring Buddhist, Hindu and Jain monuments, Ellora Caves are a stunning rock-cut temple complex with 34 monasteries and temples. 
+                            It takes about an hour by road to reach Ellora from Aurangabad.</p>
+                        <a href="../places-pages/ellora-caves.html">EXPLORE</a>
+                    </div>
+                    <div class="card">
+                        <img src="../sidepages/Photos/Hampi.jpg" alt="">
+                        <p class="c-name">Hampi, Karnataka</p>
+                        <p class="c-info">The renowned UNESCO World Heritage Site and the once-magnificent capital of the Vijayanagara Empire;
+                             Hampi attracts backpackers and pilgrims in equal numbers due to its intriguing ruins of forts and temples.</p>
+                        <a href="../places-pages/Hampi.html">EXPLORE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <ul>
+            <li><a href="#"><img src="../homepage-img/instagram.png" alt="s-photo"></a></li>
+            <li><a href="#"><img src="../homepage-img/facebook.png" alt="s-photo"></a></li>
+            <li><a href="#"><img src="../homepage-img/twitter.png" alt="s-photo"></a></li>
+            <li><a href="#"><img src="../homepage-img/youtube.jpg" alt="s-photo"></a></li>
+        </ul>
+        <p>| MOB : +91 9854981231 | E-mail : xyz@gmail.com |</p>
+        <p> | Copyright &COPY;2023 All are Reserved |</p>
+    </footer>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="../java/main.js"></script>
+    <script>
+        burger = document.querySelector('.burger')
+        navbar = document.querySelector('.navbar')
+        navlist = document.querySelector('.navlist')
+
+        burger.addEventListener('click', () => {
+            navlist.classList.toggle('v-nav');
+            navbar.classList.toggle('h-nav');
+        })
+
+    </script>
+</body>
+
+</html>
