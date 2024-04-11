@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourism in India</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="m-quiry/main-quiry.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+</head>
+
+<body>
+    <nav class="navbar h-nav">
+
+        <div class="logo"><a href="#"><img src="homepage-img/logo.png" alt=""></a></div>
+        <div class="navlist v-nav">
+            <ul>
+                <li><a href="#"  id="current">Home</a></li>
+                <li><a href="sidepages/place.html">Places</a></li>
+                <li><a href="sidepages/services.html">Services</a></li>
+                <li><a href="sidepages/blog.html">Blogs</a></li>
+                <li><a href="sidepages/contactus.html">Contact us</a></li>
+                <li><a href="#" id="sign" class="login-btn">Login</a></li>
+            </ul>
+            <a href=""><img src="homepage-img/sign-in.png" alt="" id="sign-in"></a>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="slides">
+            <div class="slide">
+                <img src="./homepage-img/s1.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="./homepage-img/s2.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="./homepage-img/s3.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="./homepage-img/s4.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="./homepage-img/s5.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="./homepage-img/s6.png" alt="">
+            </div>
+        </div>
+        <div class="slides-control">
+            <button id="prev-btn">
+                <ion-icon name="chevron-back-outline"></ion-icon>
+            </button>
+            <button id="next-btn">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+            </button>
+        </div>
+    </div>
+
+
+
+    <div class="head">
+        <div class="content c-bg">
+
+            <!-- <div class="img">
+                <img src="homepage-img/bg font.png" alt="">
+            </div> -->
+            <div class="h-title">
+                <h1>Welcome to India</h1>
+            </div>
+            <div class="h-main">
+                <div class="search">
+                    <p>Trending Destinations in India</p>
+                    <div class="wrapper">
+                        <i id="left" class="fa-solid fa-angle-left"></i>
+                        <ul class="carousel">
+                            <li class="card">
+                                <div class="img"><img src="./sidepages/Photos/Shimla.jpg" alt="img" draggable="false">
+                                </div>
+                                <h2><a href="./places-pages/shimla.html">Shimla</a></h2>
+                                <span id="t1">Himachal Pradesh</span>
+                            </li>
+                            <li class="card">
+                                <div class="img"><img src="./sidepages/Photos/Golden Temple.jpg" alt="img"
+                                        draggable="false"></div>
+                                <h2><a href="./places-pages/golden-temple.html">Golden Temple</a></h2>
+                                <span id="t1">Amritsar</span>
+                            </li>
+                            <li class="card">
+                                <div class="img"><img src="./sidepages/Photos/Baga beach.jpg" alt="img"
+                                        draggable="false"></div>
+                                <h2><a href="./places-pages/baga-beach.html">Baga Beach</a></h2>
+                                <span id="t1">Goa</span>
+                            </li>
+                            <li class="card">
+                                <div class="img"><img src="./sidepages/Photos/Kedarnath.jpg" alt="img"
+                                        draggable="false"></div>
+                                <h2><a href="./places-pages/kedarnath-temple.html">Kedarnath Temple</a></h2>
+                                <span id="t1">Kedarnath</span>
+                            </li>
+                            <li class="card">
+                                <div class="img"><img src="./sidepages/Photos/Leh Ladakh.jpg" alt="img"
+                                        draggable="false"></div>
+                                <h2><a href="./places-pages/leh-ladakh.html">Leh Ladakh</a></h2>
+                                <span id="t1">Ladakh</span>
+                            </li>
+                            <li class="card">
+                                <div class="img"><img src="./sidepages/Photos/Lonavala.jpg" alt="img" draggable="false">
+                                </div>
+                                <h2><a href="./places-pages/lonaval.html">Lonavala</a></h2>
+                                <span id="t1">Maharashtra</span>
+                            </li>
+                        </ul>
+                        <i id="right" class="fa-solid fa-angle-right"></i>
+                    </div>
+                    <input type="button" value="Explore More" class="on">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="login-box">
+        <span class="icon-close"><ion-icon name="close"></ion-icon></span>
+
+        <div class="form-box log">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" name="" id="" required>
+                    <label for="">Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" name="" id="" required>
+                    <label for="">Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox" name="" id="">Remember me </label>
+                    <a href="#">Forgot Password</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="login-register">
+                    <p> Don't have an account? <a href="#" class="register-link">Register</a></p>
+                </div>
+            </form>
+        </div>
+
+
+
+        <div class="form-box register">
+            <h2>Registration</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person"></ion-icon></span>
+                    <input type="text" name="" id="" required>
+                    <label for="">Username</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" name="" id="" required>
+                    <label for="">Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" name="" id="" required>
+                    <label for="">Password</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" name="" id="" required>
+                    <label for=""> Confirm Password</label>
+                </div>
+
+                <div class="remember-forgot">
+                    <label><input type="checkbox" name="" id="">I agree all the term & conditions </label>
+                </div>
+                <button type="submit" class="btn">Register</button>
+                <div class="login-register">
+                    <p> Already have an account <a href="#" class="login-link">Login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <div class="explore">
+        <div class="boxes">
+            <span class="close-i temp-1"><ion-icon name="close"></ion-icon></span>
+            <div class="photo">
+                <img src="homepage-img/histrocail.jpg" alt="">
+            </div>
+            <div class="info">
+                <h2>Heritage Sites </h2>
+                <p>"Discover the soul of India througth its ancient whispers. Explore heritage sites that narrate tales
+                    of triumph, love, and architechtural marvels."
+                </p>
+                <a href="./t-types/heritage-sides.html">Show Places</a>
+            </div>
+        </div>
+        <div class="boxes">
+            <span class="close-i temp-2"><ion-icon name="close"></ion-icon></span>
+
+            <div class="photo">
+                <img src="homepage-img/beach.jpg" alt="">
+            </div>
+            <div class="info">
+                <h2>Beach Destinations</h2>
+                <p>"Take a moment to pause and soak in the beauty around you. Our inviting beaches are not just for
+                    rest; they are front-row seats to nature's mesmerizing show"</p>
+                <a href="./t-types/beach-sites.html">Show Places</a>
+            </div>
+        </div>
+        <div class="boxes">
+            <span class="close-i temp-3"><ion-icon name="close"></ion-icon></span>
+            <div class="photo">
+                <img src="homepage-img/hills.jpg" alt="">
+            </div>
+            <div class="info">
+                <h2>Hills and Mountains</h2>
+                <p>"Where the earth meets the sky, discover a realm of wonder. Our mountains are not just destinations,
+                    they are jounerys that leaves an indelible mark on your soul."</p>
+                <a href="./t-types/hills-stations.html">Show Places</a>
+            </div>
+        </div>
+        <div class="boxes">
+            <span class="close-i temp-4"><ion-icon name="close"></ion-icon></span>
+            <div class="photo">
+                <img src="homepage-img/Golden Temple.jpg" alt="">
+            </div>
+            <div class="info">
+                <h2>Pilgrimage Spots</h2>
+                <p>"Discover the soul of India througth its ancient whispers. Explore heritage sites that narrate tales
+                    of triumph, love, and architechtural marvels."
+                </p>
+                <a href="./t-types/piligrimage-sites.html">Show Places</a>
+            </div>
+        </div>
+    </div>
+
+
+    
+
+
+    <div class="why">
+        <div class="w-title">
+            <h2>Why choose ExploreBharat?</h2>
+            <P>We believe in providing high qaulity experience to our tourist</P>
+        </div>
+        <div class="w-main">
+            <div class="w-left">
+                <div class="w-contant">
+                    <div class="w-logo">
+                        <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                    <div class="w-cont">
+                        <h3>Best Selections</h3>
+                        <p>Our strict selections process means that you're only see the best quality tours </p>
+                    </div>
+                </div>
+                <div class="w-contant">
+                    <div class="w-logo">
+                        <ion-icon name="pricetag-outline"></ion-icon>
+                    </div>
+                    <div class="w-cont">
+                        <h3>Best Price Guarantee</h3>
+                        <p>Found a lower price anywhere? We match it! </p>
+                        <p>We always try to provied best experience in lower prices....</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w-right">
+                <div class="w-contant">
+                    <div class="w-logo">
+                        <ion-icon name="shield-checkmark-outline"></ion-icon>
+                    </div>
+                    <div class="w-cont">
+                        <h3>Secure Payments</h3>
+                        <p>We provided various payment methods for your's convience.</p>
+                    </div>
+                </div>
+                <div class="w-contant">
+                    <div class="w-logo">
+                        <ion-icon name="chatbubbles-outline"></ion-icon>
+                    </div>
+                    <div class="w-cont">
+                        <h3>24/7 Support</h3>
+                        <p>We're available to answer any questions or concerns via online chat, phone or e-mail</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="faq">
+        <div class="f-title">
+            <h2>FAQs</h2>
+            <p>(Frequently Asked Questions )</p>
+        </div>
+
+        <div class="f-main">
+            <div class="left">
+                <div class="f-cont ">
+                    <div class="ques">
+                        <h3>Q. What is the Speciality of tourism in India?</h3>
+                        <div class="f-icon"><ion-icon name="chevron-down-outline"></ion-icon></div>
+                    </div>
+                    <div class="ans">
+                        <p>The country is known for its rich cultural heritage, diverse geography, and historical
+                            landmarks,
+                            which attract tourists from all over the world. Additionally, India is home to several
+                            UNESCO
+                            World Heritage sites, exotic wildlife, and adventure tourism opportunities.
+                        </p>
+                    </div>
+                </div>
+                <div class="f-cont ">
+                    <div class="ques">
+                        <h3>Q. Which state has highest tourism in India?
+                        </h3>
+                        <div class="f-icon"><ion-icon name="chevron-down-outline"></ion-icon></div>
+                    </div>
+                    <div class="ans">
+                        <p>Tamil Nadu. With over 14 crore domestic visitors in 2021, Tamil Nadu was the most popular
+                            travel
+                            destination for both Indian and foreign tourists, according to the Union Ministry of
+                            Tourism.
+                            This South Indian state is well known for its beautiful hill stations, magnificent heritage
+                            monuments, and holy temple cities.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="f-cont ">
+                    <div class="ques">
+                        <h3>Q. How many tourists visit India?
+                        </h3>
+                        <div class="f-icon"><ion-icon name="chevron-down-outline"></ion-icon></div>
+                    </div>
+                    <div class="ans">
+                        <p>According to the Ministry of Tourism, over 6.19 million and 1.52 million foreign tourists
+                            arrived
+                            in India in 2022 and 2021 respectively compared to 10.93 million in 2019, representing a
+                            -44%
+                            degrowth. India has bigger domestic tourist population so it's not dependent on foreign
+                            tourist
+                            much.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="f-cont ">
+                    <div class="ques">
+                        <h3>Q. What is the main reason of tourism in India?
+                        </h3>
+                        <div class="f-icon"><ion-icon name="chevron-down-outline"></ion-icon></div>
+                    </div>
+                    <div class="ans">
+                        <p>Economic Growth: One of the primary aims of tourism in India is to stimulate economic growth.
+                            Tourism contributes significantly to the country's GDP, job creation, and foreign exchange
+                            earnings. By attracting domestic and international tourists, India aims to boost its economy
+                            and
+                            generate employment opportunities.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="f-cont ">
+                    <div class="ques">
+                        <h3>Q. Which is the No 1 tourist place in India?
+                        </h3>
+                        <div class="f-icon"><ion-icon name="chevron-down-outline"></ion-icon></div>
+                    </div>
+                    <div class="ans">
+                        <p>Taj Mahal, Agra. The Taj Mahal is one of the seven wonders of the world and is considered to
+                            be
+                            the most popular tourist attraction in India.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="f-cont ">
+                    <div class="ques">
+                        <h3>Q. What is the rank of India tourism?
+                        </h3>
+                        <div class="f-icon"><ion-icon name="chevron-down-outline"></ion-icon></div>
+                    </div>
+                    <div class="ans">
+                        <p>India ranked 54th in the travel and tourism development index in 2021. The ranking and
+                            scoring
+                            was based on the industry's enabling environment, policies, infrastructure, demand drivers,
+                            and
+                            sustainability. For India, this was a significant drop from 34 in 2019, even though it was a
+                            leading country within south Asia.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="f-cont ">
+                    <div class="ques">
+                        <h3>Q. Which city is known as tourism capital of India?
+                        </h3>
+                        <div class="f-icon"><ion-icon name="chevron-down-outline"></ion-icon></div>
+                    </div>
+                    <div class="ans">
+                        <p>You can say that by the numbers of foreign and local tourists Mumbai, Agra and Delhi are the
+                            tourist capital of India. Because these cities(2 are megalopolis) attracted most no. of
+                            tourists
+                            around the world and in the country.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="f-cont ">
+                    <div class="ques">
+                        <h3>Q. Which state has the lowest tourism?
+                        </h3>
+                        <div class="f-icon"><ion-icon name="chevron-down-outline"></ion-icon></div>
+                    </div>
+                    <div class="ans">
+                        <p>In contrast, only 13 percent of respondents said they had visited Alaska, making it the
+                            least-visited state.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="f-cont ">
+                    <div class="ques">
+                        <h3>Q. Which country visits India most?
+                        </h3>
+                        <div class="f-icon"><ion-icon name="chevron-down-outline"></ion-icon></div>
+                    </div>
+                    <div class="ans">
+                        <p>In 2022, citizens from Bangladesh, the United States of America, and the United Kingdom had
+                            the highest number of tourists visiting India. According to the data, most Bangladeshi
+                            tourists visited India for leisure travel. Moreover, leisure spending was also the highest
+                            contributor to the foreign tourism revenue.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="f-cont ">
+                    <div class="ques">
+                        <h3>Q. What is the future of tourism in India?
+
+                        </h3>
+                        <div class="f-icon"><ion-icon name="chevron-down-outline"></ion-icon></div>
+                    </div>
+                    <div class="ans">
+                        <p>Significantly, the country has the potential to become a major global tourist destination,
+                            with the tourism sector expected to contribute around INR 3,414.8 billion (US$ 77.0 billion)
+                            by 2021. India is currently ranked in the 12th Asian Pacific region and 68th overall in the
+                            list of the world's attractive destinations.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+    <div class="review">
+        <h2>
+            How Ours Customers Felt for Us
+        </h2>
+        <p>Who are in extreme love with friendly & inviting people </p>
+        <div class="m-colume">
+            <div class="colume">
+                <div class="frist">
+                    <div class="pro">
+                        <span class="pro-logo"><ion-icon name="person-circle-outline"></ion-icon></span>
+                        <p> Tushar kumar</p>
+                        <div class="star">
+                            <span><ion-icon name="star"></ion-icon></span>
+                            <span><ion-icon name="star"></ion-icon></span>
+                            <span><ion-icon name="star"></ion-icon></span>
+                            <span><ion-icon name="star"></ion-icon></span>
+                            <span><ion-icon name="star"></ion-icon></span>
+                        </div>
+                    </div>
+                    <p id="comment-1">Thank you for arranging this trip.You really made our trip more memorable and
+                        thanks
+                        for the same.</p>
+                </div>
+                <div class="frist">
+                    <div class="pro">
+                        <div class="pro-logo"><ion-icon name="person-circle-outline"></ion-icon></div>
+                        <p> Disha Nair</p>
+                        <div class="star">
+                            <span><ion-icon name="star"></ion-icon></span>
+                            <span><ion-icon name="star"></ion-icon></span>
+                            <span><ion-icon name="star"></ion-icon></span>
+                            <span><ion-icon name="star"></ion-icon></span>
+                            <span><ion-icon name="star-outline"></ion-icon></span>
+                        </div>
+                    </div>
+                    <p id="comment-1">Wide range of options gave me flexibility in choosing the best deals.</p>
+                </div>
+            </div>
+
+            <div class="colume">
+                <div class="frist">
+                    <div class="pro">
+                        <span class="pro-logo"><ion-icon name="person-circle-outline"></ion-icon></span>
+                        <p>Harsh Garg</p>
+                        <div class="star">
+                            <span><ion-icon name="star"></ion-icon></span>
+                            <span><ion-icon name="star"></ion-icon></span>
+                            <span><ion-icon name="star"></ion-icon></span>
+                            <span><ion-icon name="star"></ion-icon></span>
+                            <span><ion-icon name="star"></ion-icon></span>
+                        </div>
+                    </div>
+                    <p id="comment-1">Amazing experience right from booking phase. It was an Organized and planned trip
+                        to
+                        have a tension free experience.</p>
+                </div>
+                <div class="frist">
+                    <div class="pro">
+                        <span class="pro-logo"><ion-icon name="person-circle-outline"></ion-icon></span>
+                        <p> Swati Rastogi</p>
+                        <div class="star">
+                            <span><ion-icon name="star"></ion-icon></span>
+                            <span><ion-icon name="star"></ion-icon></span>
+                            <span><ion-icon name="star"></ion-icon></span>
+                            <span><ion-icon name="star"></ion-icon></span>
+                            <span><ion-icon name="star-half"></ion-icon></span>
+                        </div>
+                    </div>
+                    <p id="comment-1">A great experience. No nasty surprises and Wonderful arrangements</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section id="about-us">
+        <div class="f-half">
+            <div class="a-info">
+                <div class="in">
+                    <h2>About us</h2>
+                    <p>We Provide Tour Plans for your most comfortable travel ever. Let yourself dive into the Beauty,
+                        Culture & festivals of India. Have You're Good time at India.
+                    </p>
+                </div>
+                <div class="logo-f">
+                    <img src="homepage-img/logo-f.png" alt="">
+                </div>
+            </div>
+            <div class="feedback">
+                <h2>Feedback</h2>
+                <label for="name" >Name :</label>
+                <div class="field"><input type="text" name="" id="name"></div>
+                <label for="number">Number :</label>
+                <div class="field"><input type="number" name="" id="number"></div>
+                <label for="e-mail">E-mail :</label>
+                <div class="field"><input type="email" name="" id="e-mail"></div>
+                <label for="comment">Comment :</label>
+                <div class="field-1"><input type="text" name="" id="comment"></div>
+                <div class="btn-1">
+                    <input type="submit" value="Submit">
+                </div>
+            </div>
+
+            <!-- <div class="s-media">
+                <h3>FOLLOW US</h3>
+                <ul class="s-list">
+                    <li id="s-1"><img src="homepage-img/instagram.png" alt=""></li>
+                    <li id="s-2"><img src="homepage-img/facebook.png" alt=""></li>
+                    <li id="s-3"><img src="homepage-img/twitter.png" alt=""></li>
+                    <li id="s-4"><img src="homepage-img/youtube.jpg" alt=""></li>
+                </ul>
+            </div> -->
+        </div>
+    </section>
+    <footer>
+        <ul>
+            <li><a href="#"><img src="homepage-img/instagram.png" alt="s-photo"></a></li>
+            <li><a href="#"><img src="homepage-img/facebook.png" alt="s-photo"></a></li>
+            <li><a href="#"><img src="homepage-img/twitter.png" alt="s-photo"></a></li>
+            <li><a href="#"><img src="homepage-img/youtube.jpg" alt="s-photo"></a></li>
+        </ul>
+        <p>| MOB : +91 9854981231 | E-mail : xyz@gmail.com |</p>
+        <p> | Copyright &COPY;2023 All are Reserved |</p>
+    </footer>
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="./java script/main.js"></script>
+</body>
+
+</html>
